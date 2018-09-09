@@ -1,0 +1,106 @@
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+main {
+    width: 1516px;
+    height: 1571px;
+}
+
+aside {
+    width: 328px;
+    height: 100%;
+    background-color: #3f8ef9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 114px;
+    box-sizing: border-box;
+}
+
+.center {
+    width: 1188px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+/*基本信息模块--strat*/
+.basic,
+.connection {
+    height: 190px;
+}
+
+.basic-top,
+.con-top,
+.ab-top {
+    height: 52px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+.basic-bottom,
+.con-bottom {
+    height: 142px;
+    line-height: 142px;
+}
+
+.basic-bottom h4,
+.con-bottom h4 {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.basic-bottom > span,
+.con-bottom > span {
+    margin-right: 82px;
+    font-size: 34px;
+}
+
+/*基本信息模块--end*/
+/*联系方式模块--start y与basic一样*/
+/*联系方式模块--end*/
+/*能力描述模块--start*/
+.ability,
+.education,
+.program {
+    height: 389px;
+}
+.ab-bottom,
+.ed-bottom,
+.pr-bottom {
+    height: 312px;
+    font-size: 34px;
+}
+.ad-bo-t,
+.ed-bo-t,
+.pr-bo-t {
+    height: 86px;
+    margin-top: 54px;
+     /*text-align: bottom;*/
+ }
+.ad-bo-b,
+.ed-bo-b,
+.pr-bo-b {
+    height: 86px;
+    margin-top: 54px;
+}
+/*能力描述模块--end*/
